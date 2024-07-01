@@ -1,0 +1,9 @@
+server_addr = "65.21.197.254"
+server_port = 7000
+
+[mysql]
+type = "tcp"
+local_ip = "127.0.0.1"
+local_port = 3306
+remote_port = 3307
+

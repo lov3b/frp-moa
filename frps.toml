@@ -1,0 +1,10 @@
+# Bind address and port
+bindAddr = "0.0.0.0"
+bindPort = 7000
+
+[[proxies]]
+name = "mysql"
+type = "tcp"
+local_ip = "127.0.0.1"
+local_port = 3306
+remote_port = 3307
